@@ -40,7 +40,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**ΒЅͲαɠεɾΒσʈ'un Köməl Menyusu**\n\nƏmirlər: /tag \nBu əmri başqalarına demək istədiyiniz mətnlə birlikdə istifadə edə bilərsiniz. \nEmoji tag: /etag'Bu əmri cavab olaraq istifadə edə bilərsiniz. istənilən mesaj Bot istifadəçiləri cavab mesajına işarələyəcək"
+  helptext = "**𝐓𝐓 𝐓𝐀𝐆𝐆𝐄𝐑'un Kömək Menyusu**\n\nƏmirlər: /tag \nBu əmri başqalarına demək istədiyiniz mətnlə birlikdə istifadə edə bilərsiniz. \nEmoji tag: /etag'Bu əmri cavab olaraq istifadə edə bilərsiniz. istənilən mesaj Bot istifadəçiləri cavab mesajına işarələyəcək"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕ Gurup Eklə', 'http://t.me/TTtaggerbot?startgroup=a'),
