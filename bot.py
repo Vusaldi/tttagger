@@ -30,22 +30,22 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**𝐓𝐓 𝐓𝐀𝐆𝐆𝐄𝐑**, Qrupda və ya kanalda demək olar ki, hər bir üzvü qeyd edə bilərəm 🤓\nDaha ətraflı məlumat üçün **/help**'yazın.",
+  await event.reply("**video tag **, Qrupda və ya kanalda demək olar ki, hər bir üzvü qeyd edə bilərəm 🤓\nDaha ətraflı məlumat üçün **/help**'yazın.",
                     buttons=(
-                      [Button.url('➕ Gurup Eklə', 'http://t.me/TTtaggerbot?startgroup=a'),
-                      Button.url('⚕️ Qrup', 'https://t.me/TT_mafiaa'),
-                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/Vusaldidaa')]
+                      [Button.url('➕ Gurup Eklə', 'http://t.me/VideoTagBot?startgroup=a'),
+                      Button.url('⚕️ Qrup', 'https://t.me/vendettachataz'),
+                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/vusaliw')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**𝐓𝐓 𝐓𝐀𝐆𝐆𝐄𝐑'un Kömək Menyusu**\n\nƏmirlər: /tag \nBu əmri başqalarına demək istədiyiniz mətnlə birlikdə istifadə edə bilərsiniz. \nEmoji tag: /etag'Bu əmri cavab olaraq istifadə edə bilərsiniz. istənilən mesaj Bot istifadəçiləri cavab mesajına işarələyəcək"
+  helptext = "**video tag'ın Kömək Menyusu**\n\nƏmirlər: /tag \nBu əmri başqalarına demək istədiyiniz mətnlə birlikdə istifadə edə bilərsiniz. \nEmoji tag: /etag'Bu əmri cavab olaraq istifadə edə bilərsiniz. istənilən mesaj Bot istifadəçiləri cavab mesajına işarələyəcək"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕ Gurup Eklə', 'http://t.me/TTtaggerbot?startgroup=a'),
-                       Button.url('⚕️ Qrup', 'https://t.me/TT_mafiaa'),
-                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/Vusaldidaa')]
+                      [Button.url('➕ Gurup Eklə', 'http://t.me/VideoTagBot?startgroup=a'),
+                       Button.url('⚕️ Qrup', 'https://t.me/vendettachataz'),
+                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/vusaliw')]
                     ),
                     link_preview=False
                    )
